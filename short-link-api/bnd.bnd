@@ -1,0 +1,10 @@
+Bundle-Name: OSB WWW Short Link Api
+Bundle-SymbolicName: com.liferay.osb.www.shortlink.api
+Bundle-Version: 2.0.0
+Export-Package:\
+	com.liferay.osb.www.shortlink.configuration,\
+	com.liferay.osb.www.shortlink.exception,\
+	com.liferay.osb.www.shortlink.model,\
+	com.liferay.osb.www.shortlink.service,\
+	com.liferay.osb.www.shortlink.service.persistence
+-includeresource: META-INF/service.xml=../short-link-service/service.xml

@@ -1,0 +1,4 @@
+Bundle-Name: OSB WWW Short Link Web
+Bundle-SymbolicName: com.liferay.osb.www.shortlink.web
+Bundle-Version: 2.0.0
+Export-Package: com.liferay.osb.www.shortlink.web.constants

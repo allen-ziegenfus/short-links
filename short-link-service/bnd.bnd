@@ -1,0 +1,6 @@
+Bundle-Activator: com.liferay.osb.www.shortlink.internal.activator.ShortLinkServiceBundleActivator
+Bundle-Name: OSB WWW Short Link Service
+Bundle-SymbolicName: com.liferay.osb.www.shortlink.service
+Bundle-Version: 2.0.0
+Liferay-Require-SchemaVersion: 2.0.0
+Liferay-Service: true

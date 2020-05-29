@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+
+<beans
+	default-destroy-method="destroy"
+	default-init-method="afterPropertiesSet"
+	xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd"
+>
+	<bean class="com.liferay.osb.www.shortlink.service.impl.ShortLinkEntryLocalServiceImpl" id="com.liferay.osb.www.shortlink.service.ShortLinkEntryLocalService" />
+	<bean class="com.liferay.osb.www.shortlink.service.impl.ShortLinkEntryServiceImpl" id="com.liferay.osb.www.shortlink.service.ShortLinkEntryService" />
+	<bean class="com.liferay.osb.www.shortlink.service.persistence.impl.ShortLinkEntryPersistenceImpl" id="com.liferay.osb.www.shortlink.service.persistence.ShortLinkEntryPersistence" />
+</beans>
